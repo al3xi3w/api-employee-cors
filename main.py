@@ -87,4 +87,5 @@ def delete_employee(id: int):
     mydb.commit()
     cursor.close()
     mydb.close()
+
     return {"message": "Employee deleted successfully"}
